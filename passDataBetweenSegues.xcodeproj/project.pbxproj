@@ -54,14 +54,38 @@
 		D4DC143B1FE72D2500AC40FE /* passDataBetweenSegues */ = {
 			isa = PBXGroup;
 			children = (
-				D4DC143C1FE72D2500AC40FE /* AppDelegate.swift */,
-				D4DC143E1FE72D2500AC40FE /* ViewController.swift */,
-				D4DC14401FE72D2500AC40FE /* Main.storyboard */,
+				D4DC14511FE72E4000AC40FE /* Controller */,
+				D4DC14501FE72E3900AC40FE /* View */,
+				D4DC144E1FE72E2300AC40FE /* Model */,
 				D4DC14431FE72D2500AC40FE /* Assets.xcassets */,
 				D4DC14451FE72D2500AC40FE /* LaunchScreen.storyboard */,
 				D4DC14481FE72D2500AC40FE /* Info.plist */,
 			);
 			path = passDataBetweenSegues;
+			sourceTree = "<group>";
+		};
+		D4DC144E1FE72E2300AC40FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4DC143C1FE72D2500AC40FE /* AppDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4DC14501FE72E3900AC40FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4DC14401FE72D2500AC40FE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D4DC14511FE72E4000AC40FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D4DC143E1FE72D2500AC40FE /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
